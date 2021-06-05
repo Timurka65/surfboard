@@ -409,7 +409,7 @@ footer {
 }
 
 .hero {
-  background: #1968B1 url(../../../img/bg-hero.png) top center/cover no-repeat;
+  background: #1968B1 url(../../img/bg-hero.png) top center/cover no-repeat;
   height: 100vh;
   min-height: 650px;
   color: #fff;
@@ -768,7 +768,7 @@ footer {
 }
 
 .order-section {
-  background: url(./img/bg-form.png) top center/cover no-repeat;
+  background: url(../../img/bg-form.png) top center/cover no-repeat;
   color: #fff;
 }
 
