@@ -1,0 +1,99 @@
+.section {
+    height: 100vh;
+    min-width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__title {
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/**/
+.headline {
+    text-align: center;  
+    margin-bottom: 50px;
+}
+
+.headline__title {
+    margin-bottom: 17px;
+}
+
+.headline__subtitle {
+    display: inline-block;
+    color: #666666;
+    margin: 0 27%;
+}
+
+/**/
+.benefits {
+    display: flex;
+}
+
+.benefits__item {
+    position: relative;
+    flex: 1;
+    padding: 0 3%;
+
+    &::before {
+        content: url("../../../img/decor/circles.svg");
+        position: absolute;
+        top: 60px;
+        right: 0;
+        transform: translateX(50%);
+    }
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:last-child {
+        padding-right: 0;
+
+        &::before {
+            display: none;
+        }
+    }
+
+}
+
+/**/
+.benefit {
+    text-align: center;
+}
+
+.benefit__img-wrapper {
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    position: relative;
+    background: #F2F5F4;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.benefit__icon {
+    width: 68px;
+    height: 68px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.benefit__title {
+    font-weight: bold;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.benefit__desc {
+    font-weight: 300;
+    color: #666666;
+}

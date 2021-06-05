@@ -1,0 +1,9 @@
+.wherefore {
+  background: #fff;
+}
+.wherefore .wherefore__title {
+  font-weight: bold;
+  font-size: 48px;
+  color: #292929;
+  margin-top: 100px;
+}
