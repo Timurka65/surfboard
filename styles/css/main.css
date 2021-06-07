@@ -835,8 +835,8 @@ footer {
   margin-bottom: 20px;
 }
 
-.form_btns {
-  margin-top: 44px;
+.form__controls-indent {
+  margin-bottom: 45px;
 }
 
 .radio {
