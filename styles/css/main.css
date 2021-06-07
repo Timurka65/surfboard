@@ -410,15 +410,13 @@ footer {
 
 .hero {
   background: #1968B1 url(../../img/bg-hero.png) top center/cover no-repeat;
-  height: 100vh;
-  min-height: 650px;
   color: #fff;
   padding-bottom: 68px;
 }
 
 .herro__title-section {
   width: 50%;
-  margin-bottom: 55px;
+  margin-bottom: 60px;
 }
 
 .hero__container {
@@ -440,12 +438,11 @@ footer {
   font-size: 48px;
   text-transform: uppercase;
   line-height: 1.2;
-  margin-bottom: 20px;
 }
 
 .herro__title-desc {
   font-size: 21px;
-  margin-bottom: 60px;
+  margin-bottom: 27px;
 }
 
 .btn {
@@ -453,7 +450,7 @@ footer {
   font-weight: 800;
   border-radius: 100px;
   line-height: 1;
-  padding: 20px 40px;
+  padding: 22px 42px;
   text-transform: uppercase;
   display: inline-block;
   border: none;
@@ -493,7 +490,7 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   padding-top: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 65px;
 }
 
 .nav__list {
@@ -540,6 +537,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 70px;
 }
 
 .features__item {
@@ -622,7 +620,7 @@ footer {
   padding: 0 3%;
 }
 .benefits__item::before {
-  content: url("../../../img/decor/circles.svg");
+  content: url("../../img/decor/circles.svg");
   position: absolute;
   top: 60px;
   right: 0;
@@ -835,6 +833,10 @@ footer {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 20px;
+}
+
+.form_btns {
+  margin-top: 44px;
 }
 
 .radio {
