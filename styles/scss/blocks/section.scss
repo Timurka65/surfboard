@@ -33,6 +33,9 @@
 /**/
 .benefits {
     display: flex;
+    /**/
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .benefits__item {
@@ -63,8 +66,9 @@
 }
 
 /**/
-.benefit {
-    text-align: center;
+.benefits__item {
+    width: calc(100% / 3 - 20px);
+    margin-left: 20px;
 }
 
 .benefit__img-wrapper {

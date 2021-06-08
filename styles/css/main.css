@@ -610,6 +610,10 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  /**/
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
 .benefits__item {
@@ -638,8 +642,9 @@ footer {
 }
 
 /**/
-.benefit {
-  text-align: center;
+.benefits__item {
+  width: calc(100% / 3 - 20px);
+  margin-left: 20px;
 }
 
 .benefit__img-wrapper {
