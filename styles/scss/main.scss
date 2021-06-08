@@ -1,5 +1,5 @@
-$containerWidth: 940px;
-$baseFontSize: 18px;
+$containerWidth: 58.75rem;
+$baseFontSize: 1.12rem;
 
 //colors
 $blue: #1968B1;
@@ -26,3 +26,18 @@ $z-fixef-menu: 100;
 @import "blocks/form.scss";
 @import "blocks/radio.scss";
 @import "blocks/fixed__menu.scss";
+
+// Медиазапросы 
+.wrapper {min-width: 0;}
+.container {width: auto; max-width: 60rem;}
+html {font-size: 16px;}
+
+@media (max-width: 768px) {
+    html {font-size: 14px}
+    .container {max-width: 450px; flex-direction: column;}
+    .reviews__display-inner {width: 100%}
+}
+
+@media (max-width: 480px) {
+    html {font-size: 12px}
+}

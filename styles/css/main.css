@@ -355,7 +355,7 @@ html, body {
 
 body {
   font-family: "Alegreya Sans", Arial, Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 1.12rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   position: relative;
@@ -365,14 +365,14 @@ body {
 .wrapper {
   position: relative;
   width: 100%;
-  min-width: 960px;
+  min-width: 60rem;
   min-height: 100%;
   overflow: hidden;
 }
 
 .container {
   margin: 0 auto;
-  width: 940px;
+  width: 58.75rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -411,12 +411,12 @@ footer {
 .hero {
   background: #1968B1 url(../../img/bg-hero.png) top center/cover no-repeat;
   color: #fff;
-  padding-bottom: 68px;
+  padding-bottom: 4.25rem;
 }
 
 .herro__title-section {
   width: 50%;
-  margin-bottom: 60px;
+  margin-bottom: 3.75rem;
 }
 
 .hero__container {
@@ -435,22 +435,22 @@ footer {
 
 .hero__main-title {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 3rem;
   text-transform: uppercase;
   line-height: 1.2;
 }
 
 .herro__title-desc {
-  font-size: 21px;
-  margin-bottom: 27px;
+  font-size: 1.31rem;
+  margin-bottom: 1.68rem;
 }
 
 .btn {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 800;
   border-radius: 100px;
   line-height: 1;
-  padding: 22px 42px;
+  padding: 1.37rem 2.62rem;
   text-transform: uppercase;
   display: inline-block;
   border: none;
@@ -470,7 +470,7 @@ footer {
 .btn--theme--transparent {
   text-transform: inherit;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 1.12rem;
   background: transparent;
   color: #fff;
 }
@@ -489,8 +489,8 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 24px;
-  margin-bottom: 65px;
+  padding-top: 1.5rem;
+  margin-bottom: 4.06rem;
 }
 
 .nav__list {
@@ -503,7 +503,7 @@ footer {
 }
 
 .nav__item {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .nav__item:last-child {
   margin-right: 0;
@@ -521,13 +521,13 @@ footer {
       -ms-flex-align: center;
           align-items: center;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 1.37rem;
 }
 
 .phone-number__icon-elem {
-  width: 12px;
-  height: 12px;
-  margin-right: 5px;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-right: 0.31rem;
 }
 
 .features {
@@ -537,11 +537,11 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 70px;
+  margin-bottom: 4.37rem;
 }
 
 .features__item {
-  margin-right: 33px;
+  margin-right: 2.1rem;
 }
 .features__item:last-child {
   margin-right: 0;
@@ -557,18 +557,18 @@ footer {
 }
 
 .feature__icon {
-  width: 35px;
-  margin-right: 15px;
+  width: 2.19rem;
+  margin-right: 1rem;
 }
 
 .feature__text {
-  font-size: 16px;
-  max-width: 90px;
+  font-size: 1rem;
+  max-width: 5.62rem;
 }
 
 .section {
   height: 100vh;
-  min-width: 650px;
+  min-width: 40.62rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -583,8 +583,8 @@ footer {
 
 .section__title {
   font-weight: bold;
-  font-size: 48px;
-  margin-bottom: 32px;
+  font-size: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -592,11 +592,11 @@ footer {
 /**/
 .headline {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 3.12rem;
 }
 
 .headline__title {
-  margin-bottom: 17px;
+  margin-bottom: 1.06rem;
 }
 
 .headline__subtitle {
@@ -622,7 +622,7 @@ footer {
 .benefits__item::before {
   content: url("../../img/decor/circles.svg");
   position: absolute;
-  top: 60px;
+  top: 3.75rem;
   right: 0;
   -webkit-transform: translateX(50%);
           transform: translateX(50%);
@@ -644,18 +644,18 @@ footer {
 
 .benefit__img-wrapper {
   display: inline-block;
-  width: 128px;
-  height: 128px;
+  width: 6rem;
+  height: 6rem;
   position: relative;
   background: #F2F5F4;
   border-radius: 50%;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .benefit__icon {
-  width: 68px;
-  height: 68px;
+  width: 4.25rem;
+  height: 4.25rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -665,8 +665,8 @@ footer {
 
 .benefit__title {
   font-weight: bold;
-  font-size: 27px;
-  margin-bottom: 20px;
+  font-size: 1.69rem;
+  margin-bottom: 1.25rem;
 }
 
 .benefit__desc {
@@ -676,8 +676,8 @@ footer {
 
 .reviews__display {
   background: #F8FAF9;
-  padding: 42px 40px 42px;
-  margin-bottom: 15px;
+  padding: 2.62rem 2.5rem 2.62rem;
+  margin-bottom: 0.94rem;
 }
 
 .reviews__display-inner {
@@ -687,14 +687,14 @@ footer {
 }
 
 .reviews__avatar {
-  width: 253px;
-  height: 264px;
+  max-width: 15.81rem;
+  height: 16.5rem;
 }
 
 .reviews-avatar__img {
   -o-object-fit: cover;
      object-fit: cover;
-  width: 100%;
+  max-width: 100%;
   height: 100%;
 }
 
@@ -702,21 +702,21 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-left: 40px;
+  margin-left: 2.5rem;
 }
 
 .reviews__title {
   font-weight: bold;
-  font-size: 27px;
-  margin: 29px 0 16px;
+  font-size: 1.69rem;
+  margin: 1.81rem 0 1rem;
 }
 
 .reviews__text {
-  width: 463px;
-  font-size: 18px;
+  width: 28.93rem;
+  font-size: 1.12rem;
   line-height: 1.2;
   color: #666666;
-  margin-bottom: 28px;
+  margin-bottom: 1.75rem;
 }
 
 .reviews__author {
@@ -737,9 +737,9 @@ footer {
 }
 
 .interactive-avatar {
-  width: 80px;
-  height: 80px;
-  border: 6px solid transparent;
+  width: 5rem;
+  height: 5rem;
+  border: 0.37rem solid transparent;
   border-radius: 50%;
   overflow: hidden;
   position: relative;
@@ -771,7 +771,7 @@ footer {
 }
 
 .title__form {
-  margin-bottom: 63px;
+  margin-bottom: 3.93rem;
 }
 
 .form {
@@ -784,28 +784,28 @@ footer {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 30px;
+  margin-right: 1.87rem;
 }
 .form__col:last-child {
   margin-right: 0;
 }
 
 .indent__row {
-  margin-bottom: 22px;
+  margin-bottom: 1.37rem;
 }
 
 .form__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 12px;
+  margin-bottom: 0.75rem;
 }
 
 .form__block {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  margin-right: 17px;
+  margin-right: 1.06rem;
 }
 .form__block:last-child {
   margin-right: 0;
@@ -813,12 +813,12 @@ footer {
 
 .form__input {
   width: 100%;
-  padding: 18px 12px;
-  border-radius: 5px;
+  padding: 1.12rem 0.75rem;
+  border-radius: 0.31rem;
   border: solid 3px transparent;
 }
 .form__input--textarea {
-  height: 152px;
+  height: 9.5rem;
   resize: none;
 }
 .form__input:focus {
@@ -832,11 +832,11 @@ footer {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
 .form__controls-indent {
-  margin-bottom: 45px;
+  margin-bottom: 2.81rem;
 }
 
 .radio {
@@ -851,10 +851,10 @@ footer {
      -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
-  margin-right: 15px;
+  margin-right: 0.94rem;
 }
 .radio--checkbox .radio__visible {
-  border-radius: 5px;
+  border-radius: 0.31rem;
 }
 .radio--checkbox .radio__visible::before {
   background: url(../../../img/icons/tick.png) center center no-repeat;
@@ -868,8 +868,8 @@ footer {
 }
 
 .radio__visible {
-  width: 25px;
-  height: 25px;
+  width: 1.56rem;
+  height: 1.56rem;
   position: relative;
   border-radius: 50%;
   background: #fff;
@@ -877,8 +877,8 @@ footer {
 }
 .radio__visible::before {
   content: "";
-  width: 13px;
-  height: 13px;
+  width: 0.81rem;
+  height: 0.81rem;
   border-radius: 50%;
   background: #FEDB3F;
   position: absolute;
@@ -897,14 +897,14 @@ footer {
 }
 
 .fixed__item {
-  margin-bottom: 5px;
+  margin-bottom: 0.31rem;
 }
 
 .fixed__link {
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   border-radius: 50%;
-  border: 1px solid transparent;
+  border: 0.06rem solid transparent;
   display: block;
   position: relative;
 }
@@ -914,8 +914,8 @@ footer {
 .fixed__link::before {
   content: "";
   display: block;
-  width: 6px;
-  height: 6px;
+  width: 0.37rem;
+  height: 0.37rem;
   border-radius: 50%;
   background: #fff;
   position: absolute;
@@ -923,5 +923,41 @@ footer {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+}
+
+.wrapper {
+  min-width: 0;
+}
+
+.container {
+  width: auto;
+  max-width: 60rem;
+}
+
+html {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .container {
+    max-width: 450px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .reviews__display-inner {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 12px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

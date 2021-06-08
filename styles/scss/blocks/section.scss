@@ -1,6 +1,6 @@
 .section {
     height: 100vh;
-    min-width: 650px;
+    min-width: 40.62rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,8 +8,8 @@
 
 .section__title {
     font-weight: bold;
-    font-size: 48px;
-    margin-bottom: 32px;
+    font-size: 3rem;
+    margin-bottom: 2rem;
     text-align: center;
     text-transform: uppercase;
 }
@@ -17,11 +17,11 @@
 /**/
 .headline {
     text-align: center;  
-    margin-bottom: 50px;
+    margin-bottom: 3.12rem;
 }
 
 .headline__title {
-    margin-bottom: 17px;
+    margin-bottom: 1.06rem;
 }
 
 .headline__subtitle {
@@ -43,7 +43,7 @@
     &::before {
         content: url("../../img/decor/circles.svg");
         position: absolute;
-        top: 60px;
+        top: 3.75rem;
         right: 0;
         transform: translateX(50%);
     }
@@ -69,18 +69,18 @@
 
 .benefit__img-wrapper {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: 6rem;
+    height: 6rem;
     position: relative;
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .benefit__icon {
-    width: 68px;
-    height: 68px;
+    width: 4.25rem;
+    height: 4.25rem;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -89,8 +89,8 @@
 
 .benefit__title {
     font-weight: bold;
-    font-size: 27px;
-    margin-bottom: 20px;
+    font-size: 1.69rem;
+    margin-bottom: 1.25rem;
 }
 
 .benefit__desc {

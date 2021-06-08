@@ -4,7 +4,7 @@
 }
 
 .title__form {
-    margin-bottom: 63px;
+    margin-bottom: 3.93rem;
 }
 
 .form {
@@ -13,7 +13,7 @@
 
 .form__col {
     flex: 1;
-    margin-right: 30px;
+    margin-right: 1.87rem;
 
     &:last-child {
         margin-right: 0;
@@ -21,16 +21,16 @@
 }
 
 .indent__row {
-    margin-bottom: 22px;
+    margin-bottom: 1.37rem;
 }
 
 .form__row {
     display: flex;
-    margin-bottom: 12px;
+    margin-bottom: 0.75rem;
 }
 .form__block {
     flex: 1;
-    margin-right: 17px;
+    margin-right: 1.06rem;
 
     &:last-child {
         margin-right: 0;
@@ -39,12 +39,12 @@
 
 .form__input {
   width: 100%;  
-  padding: 18px 12px;
-  border-radius: 5px;
+  padding: 1.12rem 0.75rem;
+  border-radius: 0.31rem;
   border: solid 3px transparent;
 
   &--textarea {
-      height: 152px;
+      height: 9.5rem;
       resize: none;
   }
 
@@ -57,9 +57,9 @@
 .form__controls {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .form__controls-indent {
-    margin-bottom: 45px;
+    margin-bottom: 2.81rem;
 }
