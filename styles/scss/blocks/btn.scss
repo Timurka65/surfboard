@@ -1,9 +1,9 @@
 .btn {
-    font-size: 1rem;
+    font-size: rem(16px);
     font-weight: 800;
-    border-radius: 100px;
+    border-radius: rem(100px);
     line-height: 1;
-    padding: 1.37rem 2.62rem;
+    padding: rem(22px) rem(42px);
     text-transform: uppercase;
     display: inline-block;
     border: none;
@@ -26,7 +26,7 @@
     &--theme--transparent {
         text-transform: inherit;
         font-weight: normal;
-        font-size: 1.12rem;
+        font-size: rem(18px);
         background: transparent;
         color: #fff;
 

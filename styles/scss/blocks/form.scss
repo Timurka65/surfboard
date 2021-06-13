@@ -4,33 +4,51 @@
 }
 
 .title__form {
-    margin-bottom: 3.93rem;
+    margin-bottom: rem(63px);
+
+    @include tablets {
+        margin-bottom: rem(33px);
+    }
 }
 
 .form {
     display: flex;
+
+    @include tablets {
+        flex-direction: column;
+        padding: 0 16%;
+    }
 }
 
 .form__col {
     flex: 1;
-    margin-right: 1.87rem;
+    margin-right: rem(30px);
 
     &:last-child {
+        margin-right: 0;
+    }
+
+    @include tablets {
         margin-right: 0;
     }
 }
 
 .indent__row {
-    margin-bottom: 1.37rem;
+    margin-bottom: rem(22px);
 }
 
 .form__row {
     display: flex;
-    margin-bottom: 0.75rem;
+    margin-bottom: rem(12px);
+
+    @include tablets {
+        margin-bottom: rem(24px);
+    }
 }
+
 .form__block {
     flex: 1;
-    margin-right: 1.06rem;
+    margin-right: rem(17px);
 
     &:last-child {
         margin-right: 0;
@@ -38,28 +56,44 @@
 }
 
 .form__input {
-  width: 100%;  
-  padding: 1.12rem 0.75rem;
-  border-radius: 0.31rem;
-  border: solid 3px transparent;
+    width: 100%;  
+    padding: rem(18px) rem(12px);
+    border-radius: rem(5px);
+    border: solid rem(3px) transparent;
 
-  &--textarea {
-      height: 9.5rem;
-      resize: none;
-  }
+    &--textarea {
+        height: rem(152px);
+        resize: none;
 
-  &:focus {
-    border-color: #FEDB3F;
-    outline: none;
-  }
+        @include tablets {
+            height: rem(92px);
+        }
+    }
+
+    &:focus {
+        border-color: #FEDB3F;
+        outline: none;
+    }
+
+    @include tablets {
+        padding: rem(7px) rem(10px);
+    }
 }
 
 .form__controls {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 1.25rem;
+    margin-bottom: rem(20px);
 }
 
 .form__controls-indent {
-    margin-bottom: 2.81rem;
+    margin-bottom: rem(45px);
+}
+
+.form__btns {
+
+    @include tablets {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -1,11 +1,11 @@
 .features {
     display: flex;
     align-items: center;
-    margin-bottom: 4.37rem;
+    margin-bottom: 67px;
 }
 
 .features__item {
-    margin-right: 2.1rem;
+    margin-right: 34px;
 
     &:last-child {
         margin-right: 0;
@@ -18,11 +18,11 @@
 }
 
 .feature__icon {
-    width: 2.19rem;
-    margin-right: 1rem;
+    width: 35px;
+    margin-right: 16px;
 }
 
 .feature__text {
-    font-size: 1rem;
-    max-width: 5.62rem;
+    font-size: 16px;
+    max-width: 90px;
 }

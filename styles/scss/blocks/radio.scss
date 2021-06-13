@@ -3,11 +3,11 @@
     cursor: pointer;
     align-items: center;
     user-select: none;
-    margin-right: 0.94rem;
+    margin-right: 15px;
 
     &--checkbox {
        .radio__visible {
-           border-radius: 0.31rem;
+           border-radius: 5px;
 
            &::before {
             background: url(../../../img/icons/tick.png) center center no-repeat;
@@ -27,8 +27,8 @@
 }
 
 .radio__visible {
-    width: 1.56rem;
-    height: 1.56rem;
+    width: 25px;
+    height: 25px;
     position: relative;
     border-radius: 50%;
     background: #fff;
@@ -36,8 +36,8 @@
 
     &::before {
         content: "";
-        width: 0.81rem;
-        height: 0.81rem;
+        width: 13px;
+        height: 13px;
         border-radius: 50%;
         background: #FEDB3F;
         position: absolute;

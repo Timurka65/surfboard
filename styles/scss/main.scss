@@ -1,5 +1,9 @@
-$containerWidth: 58.75rem;
-$baseFontSize: 1.12rem;
+$containerWidth: 940px;
+$baseFontSize: 18px;
+
+// breakpoints
+$tablets: 768px;
+$phones: 480px;
 
 //colors
 $blue: #1968B1;
@@ -8,6 +12,8 @@ $black: #000;
 $gray: #666666;
 
 $z-fixef-menu: 100;
+
+@import "layout/media.scss";
 
 //normalize
 @import "layout/normalize.scss";
@@ -26,18 +32,4 @@ $z-fixef-menu: 100;
 @import "blocks/form.scss";
 @import "blocks/radio.scss";
 @import "blocks/fixed__menu.scss";
-
-// Медиазапросы 
-.wrapper {min-width: 0;}
-.container {width: auto; max-width: 60rem;}
-html {font-size: 16px;}
-
-@media (max-width: 768px) {
-    html {font-size: 14px}
-    .container {max-width: 450px; flex-direction: column;}
-    .reviews__display-inner {width: 100%}
-}
-
-@media (max-width: 480px) {
-    html {font-size: 12px}
-}
+@import "blocks/hamburger.scss";
