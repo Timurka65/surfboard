@@ -1,12 +1,17 @@
 .hero {
     background: $blue url(../../img/bg-hero.png) top center / cover no-repeat;
     color: $white;
-    padding-bottom: 68px;
+    padding-bottom: rem(68px);
+
+    // @include tablets {
+    //     background: $blue top center  no-repeat;
+    //     background-size: 100% rem(299px) !important;
+    // }
 }
 
 .herro__title-section {
     width: 50%;
-    margin-bottom: 60px;
+    margin-bottom: rem(60px);
 
     @include tablets {
        width: 100%;
@@ -34,22 +39,34 @@
 
 .hero__main-title {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: rem(48px);
     text-transform: uppercase;
     line-height: 1.2;
 
     @include tablets {
-        letter-spacing: -2px;
+        letter-spacing: rem(-2px);
+    }
+
+    @include tablets {
+        letter-spacing: rem(2px);
+        line-height: 1;
+        font-size: rem(42px);
+        padding: 0 4%;
     }
 }
         
 .herro__title-desc {
-    font-size: 21px;
-    margin-bottom: 27px;
+    font-size: rem(21px);
+    margin-bottom: rem(27px);
 
     @include tablets {
         padding: 0 20%;
-        margin-bottom: 11px;
+        margin-bottom: rem(11px);
+    }
+
+    @include phones {
+        padding: 0 10%;
+        margin-bottom: rem(35px);
     }
 }
     

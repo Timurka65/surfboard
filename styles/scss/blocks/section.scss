@@ -1,6 +1,6 @@
 .section {
     height: 100vh;
-    min-width: 650px;
+    min-width: rem(320px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,8 +8,8 @@
 
 .section__title {
     font-weight: bold;
-    font-size: 48px;
-    margin-bottom: 32px;
+    font-size: rem(48px);
+    margin-bottom: rem(32px);
     text-align: center;
     text-transform: uppercase;
 }
@@ -17,17 +17,31 @@
 /**/
 .headline {
     text-align: center;  
-    margin-bottom: 52px;
+    margin-bottom: rem(52px);
+
+    @include phones {
+        margin-bottom: rem(75px);
+    }
 }
 
 .headline__title {
-    margin-bottom: 20px;
+    margin-bottom: rem(20px);
+
+    @include phones {
+        margin-bottom: rem(5px);
+        letter-spacing: rem(-2px);
+    }
 }
+
 
 .headline__subtitle {
     display: inline-block;
     color: #666666;
     margin: 0 27%;
+
+    @include phones {
+        margin: 0 8%;
+    }
 }
 
 /**/
@@ -36,17 +50,29 @@
     /**/
     flex-wrap: wrap;
     text-align: center;
+
+    @include phones {
+        flex-direction: column;
+    }
 }
 
 .benefits__item {
     position: relative;
+    margin-left: rem(20px);
     flex: 1;
     padding: 0 3%;
+
+    @include phones {
+        display: flex;
+        text-align: left;
+        padding: 0;
+        margin-bottom: rem(19px);
+    }
 
     &::before {
         content: url("../../img/decor/circles.svg");
         position: absolute;
-        top: 60px;
+        top: rem(60px);
         right: 0;
         transform: translateX(50%);
 
@@ -70,25 +96,36 @@
 }
 
 /**/
-.benefits__item {
-    width: calc(100% / 3 - 20px);
-    margin-left: 20px;
+.benefit {
+    // text-align: center;
+
+    @include phones {
+        
+    }
+}
+
+.benefit__img {
+    margin-bottom: rem(20px);
+
+    @include phones {
+        margin-bottom: 0;
+        margin-right: rem(15px);
+    }
 }
 
 .benefit__img-wrapper {
     display: inline-block;
-    width: 128px;
-    height: 128px;
+    width: rem(128px);
+    height: rem(128px);
     position: relative;
     background: #F2F5F4;
     border-radius: 50%;
     overflow: hidden;
-    margin-bottom: 20px;
 }
 
 .benefit__icon {
-    width: 68px;
-    height: 68px;
+    width: rem(68px);
+    height: rem(68px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,8 +134,8 @@
 
 .benefit__title {
     font-weight: bold;
-    font-size: 27px;
-    margin-bottom: 20px;
+    font-size: rem(27px);
+    margin-bottom: rem(20px);
 }
 
 .benefit__desc {
