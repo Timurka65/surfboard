@@ -9,14 +9,27 @@
     border: none;
     background: #FEDB3F;
     color: $black;
+    
+
+    @include phones {
+        font-size: rem(21px);
+        padding: rem(24px) rem(41px);
+    }
 
     &:hover {
         background: #FFD517;
+        transition: 1s;
     }
     
     &--theme--yellow {  
         background: #FFD517;
         color: $black;
+        cursor: pointer;
+
+        @include phones {
+            font-size: rem(18px);
+            padding: rem(26px) rem(47px);
+        }
 
         &:hover {
             background: #FEDB3F;
@@ -33,6 +46,7 @@
         &:hover {
             background: transparent;
             color: #FEDB3F;
+            cursor: pointer;
         }
     }
 }

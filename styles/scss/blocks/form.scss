@@ -7,7 +7,11 @@
     margin-bottom: rem(63px);
 
     @include tablets {
-        margin-bottom: rem(33px);
+        margin-bottom: rem(37px);
+    }
+
+    @include phones {
+        margin-bottom: rem(35px);
     }
 }
 
@@ -16,7 +20,7 @@
 
     @include tablets {
         flex-direction: column;
-        padding: 0 16%;
+        padding: 0 18%;
     }
 
     @include phones {
@@ -37,16 +41,16 @@
     }
 }
 
-.indent__row {
-    margin-bottom: rem(22px);
-}
-
 .form__row {
     display: flex;
     margin-bottom: rem(12px);
 
     @include tablets {
-        margin-bottom: rem(24px);
+        margin-bottom: rem(19px);
+    }
+
+    @include phones {
+        margin-bottom: rem(19px);
     }
 }
 
@@ -56,6 +60,16 @@
 
     &:last-child {
         margin-right: 0;
+    }
+}
+
+.form__title {
+    @include tablets {
+        font-size: 18px;
+    }
+
+    @include phones {
+        line-height: 1.2;
     }
 }
 
@@ -70,6 +84,10 @@
         resize: none;
 
         @include tablets {
+            height: rem(87px);
+        }
+
+        @include phones {
             height: rem(92px);
         }
     }
@@ -96,6 +114,11 @@
 
 .form__controls-indent {
     margin-bottom: rem(45px);
+
+    @include phones {
+        margin-bottom: rem(35px);
+    }
+
 }
 
 .form__btns {
@@ -103,5 +126,10 @@
     @include tablets {
         display: flex;
         justify-content: center;
+        padding-left: 37px;
+    }
+
+    @include phones {
+        padding-left: 40px;
     }
 }

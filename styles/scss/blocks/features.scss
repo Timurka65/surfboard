@@ -1,6 +1,7 @@
 .features {
     display: flex;
     align-items: center;
+    color: #fff;
     margin-bottom: rem(67px);
 }
 
@@ -18,11 +19,14 @@
 }
 
 .feature__icon {
-    width: rem(35px);
-    height: rem(35px);
     margin-right: rem(16px);
 }
 
+.features__icon {
+    fill: #fff;
+    width: rem(35px);
+    height: rem(35px);
+}
 
 .feature__text {
     font-size: rem(16px);
